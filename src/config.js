@@ -9,6 +9,15 @@ export const DB_PASSWORD =  process.env.DB_PASSWORD || '123456'
 export const DB_HOST =  process.env.DB_HOST || 'localhost'
 export const DB_DATABASE =  process.env.DB_DATABASE || 'companydb'
 
+//_RAILWAY
+/*
+export const PORT_RAILWAY =  process.env.PORT || 3000
+export const DB_PORT_RAILWAY =  process.env.DB_PORT || 3306
+export const DB_USER_RAILWAY =  process.env.DB_USER || 'root'
+export const DB_PASSWORD_RAILWAY =  process.env.DB_PASSWORD || '123456'
+export const DB_HOST_RAILWAY =  process.env.DB_HOST || 'localhost'
+export const DB_DATABASE_RAILWAY =  process.env.DB_DATABASE || 'companydb'
+*/
 /*console.log(process.env.PORT)
 console.log(process.env.DB_PORT)
 console.log(process.env.DB_HOST)
